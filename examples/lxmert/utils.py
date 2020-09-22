@@ -36,7 +36,7 @@ from zipfile import ZipFile, is_zipfile
 
 import numpy as np
 from PIL import Image
-from tqdm.auto import tqdm
+from tqdm import tqdm
 
 import cv2
 import requests

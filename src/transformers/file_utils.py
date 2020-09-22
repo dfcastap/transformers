@@ -23,7 +23,7 @@ from urllib.parse import urlparse
 from zipfile import ZipFile, is_zipfile
 
 import numpy as np
-from tqdm.auto import tqdm
+from tqdm import tqdm
 
 import requests
 from filelock import FileLock

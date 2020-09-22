@@ -17,7 +17,7 @@ from torch.utils.data.dataloader import DataLoader
 from torch.utils.data.dataset import Dataset
 from torch.utils.data.distributed import DistributedSampler
 from torch.utils.data.sampler import RandomSampler, Sampler, SequentialSampler
-from tqdm.auto import tqdm, trange
+from tqdm import tqdm, trange
 
 from .data.data_collator import DataCollator, DataCollatorWithPadding, default_data_collator
 from .file_utils import is_datasets_available, is_torch_tpu_available
